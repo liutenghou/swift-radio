@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4FD3C61DFA18EA0084893B /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FD3C51DFA18EA0084893B /* AnimationFrames.swift */; };
+		FD503A481DF037F4009541A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD503A471DF037F4009541A8 /* AVFoundation.framework */; };
+		FD503A4A1DF037FB009541A8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD503A491DF037FB009541A8 /* MediaPlayer.framework */; };
+		FD9426081F8D5D6600A521FE /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9426061F8D5D6500A521FE /* SQLiteDB.swift */; };
+		FD9426091F8D5D6600A521FE /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9426071F8D5D6500A521FE /* SQLTable.swift */; };
+		FD9AABD71DFF3CA600D75FE2 /* Radyolar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FD9AABD61DFF3CA600D75FE2 /* Radyolar.sqlite */; };
+		FDF887841DECE424006422A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF887831DECE424006422A8 /* AppDelegate.swift */; };
+		FDF887861DECE424006422A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF887851DECE424006422A8 /* ViewController.swift */; };
+		FDF887891DECE424006422A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF887871DECE424006422A8 /* Main.storyboard */; };
+		FDF8878B1DECE424006422A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF8878A1DECE424006422A8 /* Assets.xcassets */; };
+		FDF8878E1DECE424006422A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF8878C1DECE424006422A8 /* LaunchScreen.storyboard */; };
+		FDF887961DECF569006422A8 /* RadyoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF887951DECF569006422A8 /* RadyoTableViewCell.swift */; };
+		FDF887981DECF845006422A8 /* RadyoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF887971DECF845006422A8 /* RadyoClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD4FD3C51DFA18EA0084893B /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		FD503A431DF037E7009541A8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FD503A451DF037EE009541A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FD503A471DF037F4009541A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
+		FD503A491DF037FB009541A8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaPlayer.framework; sourceTree = "<group>"; };
+		FD9216351F8E095C00DFE268 /* Radio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Radio-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD9426061F8D5D6500A521FE /* SQLiteDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		FD9426071F8D5D6500A521FE /* SQLTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		FD9AABD61DFF3CA600D75FE2 /* Radyolar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Radyolar.sqlite; sourceTree = "<group>"; };
+		FD9AABD81DFF3FA400D75FE2 /* Radyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radyo.entitlements; sourceTree = "<group>"; };
+		FDF887801DECE424006422A8 /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF887831DECE424006422A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF887851DECE424006422A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF887881DECE424006422A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF8878A1DECE424006422A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF8878D1DECE424006422A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF8878F1DECE424006422A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF887951DECF569006422A8 /* RadyoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadyoTableViewCell.swift; sourceTree = "<group>"; };
+		FDF887971DECF845006422A8 /* RadyoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadyoClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF8877D1DECE424006422A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD503A481DF037F4009541A8 /* AVFoundation.framework in Frameworks */,
+				FD503A4A1DF037FB009541A8 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF8C1B8E412475923CC47574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD503A451DF037EE009541A8 /* AVFoundation.framework */,
+				FD503A431DF037E7009541A8 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF887771DECE424006422A8 = {
+			isa = PBXGroup;
+			children = (
+				FD9AABD81DFF3FA400D75FE2 /* Radyo.entitlements */,
+				FD9AABD61DFF3CA600D75FE2 /* Radyolar.sqlite */,
+				FD503A491DF037FB009541A8 /* MediaPlayer.framework */,
+				FD503A471DF037F4009541A8 /* AVFoundation.framework */,
+				FDF887821DECE424006422A8 /* RadyoTurkiye */,
+				FDF887811DECE424006422A8 /* Products */,
+				DF8C1B8E412475923CC47574 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF887811DECE424006422A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF887801DECE424006422A8 /* Radio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF887821DECE424006422A8 /* RadyoTurkiye */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FD3C51DFA18EA0084893B /* AnimationFrames.swift */,
+				FD9426061F8D5D6500A521FE /* SQLiteDB.swift */,
+				FD9426071F8D5D6500A521FE /* SQLTable.swift */,
+				FDF887831DECE424006422A8 /* AppDelegate.swift */,
+				FDF887851DECE424006422A8 /* ViewController.swift */,
+				FDF887871DECE424006422A8 /* Main.storyboard */,
+				FDF8878A1DECE424006422A8 /* Assets.xcassets */,
+				FDF8878C1DECE424006422A8 /* LaunchScreen.storyboard */,
+				FDF8878F1DECE424006422A8 /* Info.plist */,
+				FDF887951DECF569006422A8 /* RadyoTableViewCell.swift */,
+				FDF887971DECF845006422A8 /* RadyoClass.swift */,
+				FD9216351F8E095C00DFE268 /* Radio-Bridging-Header.h */,
+			);
+			path = RadyoTurkiye;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF8877F1DECE424006422A8 /* Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF887921DECE424006422A8 /* Build configuration list for PBXNativeTarget "Radio" */;
+			buildPhases = (
+				FDF8877C1DECE424006422A8 /* Sources */,
+				FDF8877D1DECE424006422A8 /* Frameworks */,
+				FDF8877E1DECE424006422A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radio;
+			productName = RadyoTurkiye;
+			productReference = FDF887801DECE424006422A8 /* Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF887781DECE424006422A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ikbal;
+				TargetAttributes = {
+					FDF8877F1DECE424006422A8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9MMLCT2W4W;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FDF8877B1DECE424006422A8 /* Build configuration list for PBXProject "Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF887771DECE424006422A8;
+			productRefGroup = FDF887811DECE424006422A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF8877F1DECE424006422A8 /* Radio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF8877E1DECE424006422A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF8878E1DECE424006422A8 /* LaunchScreen.storyboard in Resources */,
+				FDF8878B1DECE424006422A8 /* Assets.xcassets in Resources */,
+				FD9AABD71DFF3CA600D75FE2 /* Radyolar.sqlite in Resources */,
+				FDF887891DECE424006422A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF8877C1DECE424006422A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF887981DECF845006422A8 /* RadyoClass.swift in Sources */,
+				FDF887861DECE424006422A8 /* ViewController.swift in Sources */,
+				FD4FD3C61DFA18EA0084893B /* AnimationFrames.swift in Sources */,
+				FDF887841DECE424006422A8 /* AppDelegate.swift in Sources */,
+				FDF887961DECF569006422A8 /* RadyoTableViewCell.swift in Sources */,
+				FD9426081F8D5D6600A521FE /* SQLiteDB.swift in Sources */,
+				FD9426091F8D5D6600A521FE /* SQLTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF887871DECE424006422A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF887881DECE424006422A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF8878C1DECE424006422A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF8878D1DECE424006422A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF887901DECE424006422A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF887911DECE424006422A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF887931DECE424006422A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9MMLCT2W4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = RadyoTurkiye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikbalgis.radio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RadyoTurkiye/Radio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FDF887941DECE424006422A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9MMLCT2W4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = RadyoTurkiye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikbalgis.radio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RadyoTurkiye/Radio-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF8877B1DECE424006422A8 /* Build configuration list for PBXProject "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF887901DECE424006422A8 /* Debug */,
+				FDF887911DECE424006422A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF887921DECE424006422A8 /* Build configuration list for PBXNativeTarget "Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF887931DECE424006422A8 /* Debug */,
+				FDF887941DECE424006422A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF887781DECE424006422A8 /* Project object */;
+}
