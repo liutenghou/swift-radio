@@ -99,7 +99,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
             Radyo.resim = Radyolar[i]["Icon"] as? String!
             
             RadyoDizisi.append(Radyo)
-            //       data.append((Radyolar[i]["Adi"] as? String!)!)
+
             
         }
         
@@ -183,15 +183,10 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
             
             cell.btnFavori.tag = indexPath.row
             cell.btnFavori.addTarget(self, action: #selector(ViewController.btnfavoriyebas(sender:)), for: .touchUpInside)
-            
-            
-            
-            
+    
             
         }
-        
-        
-        
+ 
         
         return cell
         
@@ -281,16 +276,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
         
         
     }
-    
-    
-    //    func toggle() {
-    //        if RadioPlayer.sharedInstance.currentlyPlaying() {
-    //            pauseRadio()
-    //        } else {
-    //            playRadio()
-    //        }
-    //    }
-    //
+
     func playRadio() {
         radioPlayer.play()
     }
@@ -299,16 +285,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
         radioPlayer.stop()
         
     }
-    
-    
-    
-    //
-    //
-    //    func currentlyPlaying() -> Bool {
-    //        return isPlaying
-    //    }
-    
-    
+ 
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         searchActive = true;
     }
@@ -365,9 +342,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
         if(k == 1){
             
             var Radyolar =  DataBase.query(sql: " select * from Radyolar where Favori = '2' order by Adi asc"   , parameters: nil)
-            
-            //  var LiseAdlari =  DataBase.query(sql: " select * from lisesec where favoriDurumu = '2' order by puan * 100 desc"   , parameters: nil)
-            
+
             if(Radyolar.count != 0){
                 RadyoDizisi.removeAll()
                 for i in 0 ..< Radyolar.count  {
