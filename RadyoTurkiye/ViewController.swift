@@ -32,8 +32,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
     
     @IBOutlet weak var searchBar: UISearchBar!
     var searchActive : Bool = false
-    
-    // var data = [RadyoClass()]
+
     var filtered = [RadyoClass()]
     
 
@@ -41,7 +40,7 @@ class ViewController: UIViewController ,  UITableViewDataSource , UITableViewDel
     var t = 1
     @IBAction func btnpausebaritemClck(_ sender: Any) {
         if(t == 1){
-            //  btnpausebaritem.isHidden = true
+   
             radioPlayer.stop()
             nowPlayingImageView.stopAnimating()
             btnpausebaritem.setImage(UIImage(named: "btn-play.png"), for: UIControlState.normal)

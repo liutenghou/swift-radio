@@ -14,6 +14,5 @@ class RadyoTableViewCell: UITableViewCell {
     @IBOutlet weak var lblRadyoAdi: UILabel!
     @IBOutlet weak var btnFavori: UIButton!
     @IBOutlet weak var iconview: UIImageView!
-    @IBOutlet weak var playinggift: UIImageView!
-
+   
 }
