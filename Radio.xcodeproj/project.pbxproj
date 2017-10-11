@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FD4FD3C61DFA18EA0084893B /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FD3C51DFA18EA0084893B /* AnimationFrames.swift */; };
-		FD503A481DF037F4009541A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD503A471DF037F4009541A8 /* AVFoundation.framework */; };
-		FD503A4A1DF037FB009541A8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD503A491DF037FB009541A8 /* MediaPlayer.framework */; };
 		FD9426081F8D5D6600A521FE /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9426061F8D5D6500A521FE /* SQLiteDB.swift */; };
 		FD9426091F8D5D6600A521FE /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9426071F8D5D6500A521FE /* SQLTable.swift */; };
 		FD9AABD71DFF3CA600D75FE2 /* Radyolar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FD9AABD61DFF3CA600D75FE2 /* Radyolar.sqlite */; };
@@ -26,8 +24,6 @@
 		FD4FD3C51DFA18EA0084893B /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
 		FD503A431DF037E7009541A8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FD503A451DF037EE009541A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FD503A471DF037F4009541A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
-		FD503A491DF037FB009541A8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaPlayer.framework; sourceTree = "<group>"; };
 		FD9216351F8E095C00DFE268 /* Radio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Radio-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD9426061F8D5D6500A521FE /* SQLiteDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
 		FD9426071F8D5D6500A521FE /* SQLTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
@@ -49,8 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD503A481DF037F4009541A8 /* AVFoundation.framework in Frameworks */,
-				FD503A4A1DF037FB009541A8 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +65,6 @@
 			children = (
 				FD9AABD81DFF3FA400D75FE2 /* Radyo.entitlements */,
 				FD9AABD61DFF3CA600D75FE2 /* Radyolar.sqlite */,
-				FD503A491DF037FB009541A8 /* MediaPlayer.framework */,
-				FD503A471DF037F4009541A8 /* AVFoundation.framework */,
 				FDF887821DECE424006422A8 /* RadyoTurkiye */,
 				FDF887811DECE424006422A8 /* Products */,
 				DF8C1B8E412475923CC47574 /* Frameworks */,
